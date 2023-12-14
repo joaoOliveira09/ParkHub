@@ -20,7 +20,7 @@ public class AreaComum {
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long idAreaComum;
     private Tipo nome;
-    private String descrição;
+    private String descricao;
     private Long capacidadeMaxima;
 
     public enum Tipo {

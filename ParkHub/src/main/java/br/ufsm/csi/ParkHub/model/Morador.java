@@ -47,9 +47,7 @@ public class Morador {
     private List<Ocorrencia> ocorrencias = new ArrayList<>();
 
 // Cada unidade habitacional tem vários moradores (relacionamento um para muitos).
-
 // Cada morador pode ter vários veículos (relacionamento um para muitos).
-
 // As áreas comuns podem ser reservadas por vários moradores e para várias finalidades (relacionamento muitos para muitos).
 // Moradores podem registrar ocorrências (relacionamento um para muitos).
 

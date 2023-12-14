@@ -23,6 +23,13 @@ public class Pagamento {
 private Long idPagamento; 
 private Morador morador;
 private Date dataVencimento;
-private String statusPagamento;
+private StatusPagamento statusPagamento;
 private BigDecimal valor;   
+
+public enum StatusPagamento {
+    PENDENTE,
+    PAGO,
+    ATRASADO
+}
+
 }
